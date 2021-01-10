@@ -1,0 +1,95 @@
+body {
+	font-size: 14px;
+	margin-top: 5mm;
+	margin-bottom: 5mm;
+}
+
+@page {
+	margin-header: 5mm;
+	margin-footer: 5mm;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+section#main-content {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+.title {
+	font-size: 16px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+table {
+	width: 100%;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 1px solid #333 !important;
+	padding: 10px;
+}
+
+th {
+	font-size: 14px;
+	padding: 2px;
+}
+
+td {
+	font-size: 14px;
+	padding: 2px;
+}
+
+p {
+	text-align: justify;
+}
+
+.bangla, .bangla td {
+	font-family: SolaimanLipi;
+}
+
+table.no-border, table.no-border td, table.no-border th {
+	border: 0;
+	vertical-align: top;
+}
+
+.no-padding, .no-padding > tr > td, .no-padding > tr > th {
+	padding: 0;
+}
+
+.va-top {
+	vertical-align: top !important;
+}
+
+.va-middle {
+	vertical-align: middle !important;
+}
+
+.va-top .middle {
+	vertical-align: middle !important;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+table tr td, table tr th {
+	padding: 4px;
+}
